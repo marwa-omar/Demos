@@ -1,5 +1,6 @@
-package com.marwa.caroperations.models;
+package com.marwa.caroperations.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.persistence.*;
 
 @Entity
@@ -16,6 +17,10 @@ public class Car {
     @ManyToOne
     @JoinColumn(name = "owner_id")
     private Owner owner;
+
+    public Car() {
+        this.hideMe = "You can't see me";
+    }
 
     public int getCarId() {
         return carId;

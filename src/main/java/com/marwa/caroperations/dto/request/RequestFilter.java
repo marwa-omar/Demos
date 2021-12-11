@@ -1,4 +1,4 @@
-package com.marwa.caroperations.requestDtos;
+package com.marwa.caroperations.dto.request;
 
 public class RequestFilter {
     private String search;

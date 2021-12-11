@@ -1,4 +1,4 @@
-package com.marwa.caroperations.requestDtos;
+package com.marwa.caroperations.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

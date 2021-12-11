@@ -1,4 +1,4 @@
-package com.marwa.caroperations.models;
+package com.marwa.caroperations.entities;
 
 import javax.persistence.*;
 import java.util.HashSet;

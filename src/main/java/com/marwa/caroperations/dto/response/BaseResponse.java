@@ -1,4 +1,4 @@
-package com.marwa.caroperations.responseDtos;
+package com.marwa.caroperations.dto.response;
 
 
 public class BaseResponse {
